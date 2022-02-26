@@ -76,6 +76,14 @@ input {
     float: left;
     font-size: 16px
 }
+.cross{
+    cursor: pointer;
+    color:red;
+}
+.cross:hover{
+    background-color:cyan;
+
+}
 
 .addBtn {
     padding: 10px;
