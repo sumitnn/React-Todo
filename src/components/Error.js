@@ -1,7 +1,9 @@
 import React from 'react';
+// import { useLocation } from 'react-router-dom';
 
-
-const  Error=()=> {
+const Error = () => {
+    // const history = useLocation();
+    // console.log(history);
   return (
       <>
           <div>
@@ -13,7 +15,7 @@ const  Error=()=> {
                       Either you aren't cool enough to visit this page or it doesn't exist <em>. . . like your social life.</em>
                   </p>
                   <button>Go Back</button>
-                  <button>Go To Home</button>
+                  <button >Go To Home</button>
 
               </main>
           </div>
